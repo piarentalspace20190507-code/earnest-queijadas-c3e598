@@ -1,0 +1,1 @@
+self.addEventListener('install',()=>self.skipWaiting());self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));self.addEventListener('push',e=>e.waitUntil(self.registration.showNotification('商品発掘AI',{body:'新しいTOP商品が見つかりました'})));
