@@ -6,3 +6,8 @@
   from = "/api/results"
   to = "/.netlify/functions/results"
   status = 200
+
+[[redirects]]
+  from = "/api/scan"
+  to = "/.netlify/functions/scan"
+  status = 200
